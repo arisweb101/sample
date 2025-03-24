@@ -29,12 +29,11 @@ Tasteology is a web application that focuses on the science of cooking and food 
 - **Prettier**: An opinionated code formatter that ensures consistent code style across the project.
 - **Google Fonts**: For custom fonts (Open Sans).
 
-## Why Vanilla JavaScript?
+## Approach: Using Vanilla JavaScript
 
-I chose to use **vanilla JavaScript** over frameworks like React or Vue for this project. The main reasons are:
-
-1. **Simplicity**: Using plain JavaScript allows for a more straightforward and minimal approach, which makes it easier to understand and debug.
-2. **Performance**: A smaller, framework-free project tends to have better performance because there’s
+1. **Simplicity**: Using plain JavaScript ensures a straightforward and minimalistic approach to the project. This makes it easier to understand and debug without introducing additional complexities.
+2. **Simplicity**: Using plain JavaScript allows for a more straightforward and minimal approach, which makes it easier to understand and debug.
+3. **Performance**: A smaller, framework-free project tends to have better performance because there’s
 
 That said, if I were to implement this project using **React** or **Vue**, I would be fully capable of doing so. The skills I used here are easily transferable, and I understand the concepts and patterns involved in working with modern JavaScript frameworks.
 
