@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'url';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import CopyWebpackPlugin from 'copy-webpack-plugin'; // Add the CopyWebpackPlugin
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,13 +28,21 @@ export default {
             },
             {
                 test: /\.(png|jpg|jpeg|gif|webp)$/i,
-                type: 'asset/resource',
+                type: 'asset/resource', // This will still handle the image files
             },
         ],
     },
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/index.html',
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                {
+                    from: 'public/assets/images', // Copy from public/assets/images
+                    to: 'assets/images', // Copy to dist/assets/images
+                },
+            ],
         }),
     ],
     devServer: {
