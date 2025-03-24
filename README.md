@@ -51,16 +51,28 @@ Follow these steps to set up the project on your local machine:
     ```
 
 2. Navigate to the project directory:
-   cd tasteology
+
+    ```bash
+    cd tasteology
+    ```
 
 3. Install dependencies:
-   npm install
+
+    ```bash
+    npm install
+    ```
 
 4. Build the project:
-   npm run build
+
+    ```bash
+    npm run build
+    ```
 
 5. Start the development server:
-   npm start
+
+    ```bash
+    npm start
+    ```
 
 Usage
 Visit the homepage to see the layout and interact with the images.
