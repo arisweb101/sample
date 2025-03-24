@@ -74,7 +74,8 @@ Follow these steps to set up the project on your local machine:
     npm start
     ```
 
-Usage
+## Usage
+
 Visit the homepage to see the layout and interact with the images.
 
 Click on any image to open it in a modal.
