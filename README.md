@@ -8,9 +8,6 @@ Tasteology is a web application that focuses on the science of cooking and food 
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
